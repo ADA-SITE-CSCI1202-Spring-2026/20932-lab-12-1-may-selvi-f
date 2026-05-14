@@ -1,4 +1,5 @@
-interface LambaFixTask {
+@FunctionalInterface
+interface NumberChecker {
     boolean check(int number);
     void printResult();
 }
